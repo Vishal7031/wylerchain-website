@@ -73,17 +73,15 @@ const Works = () => {
       <motion.div variants={textVariant()}>
         <h2 className={`${styles.sectionHeadText}`}>Powered by $WYLER</h2>
         <span className="font-bold">
-        $WYLER is the native gas token for Wyler Chain and the governance token for the Wylerchain DAO.
+          $WYLER is the heart of the WylerChain ecosystem. It powers the network’s governance and access to core features, but WylerChain operates gasless — meaning users don't need to pay traditional gas fees to interact with the network.
         </span>
-          <br></br>
-          <br></br>
+        <br></br>
+        <br></br>
         <span>
-        It powers the entire Wylerchain ecosystem.
-        <br></br>
-        <br></br>
-
-        $WYLER token wil deploy on zkSync Eera as a ERC-20 token. It also deploy on the Ethereum L1 Blockchain         <br></br>
-        and will be bridged to the Wyler Chain when the Mainnet goes live.
+          The token will initially launch as an ERC-20 on Arbitrum One and Ethereum L1, benefiting from speed, security, and wide reach. When WylerChain’s mainnet goes live, $WYLER will be seamlessly bridged for native use.
+          <br></br>
+          <br></br>
+          From staking and governance to powering apps and rewarding users, $WYLER drives the entire WylerChain experience without the burden of transaction fees.
         </span>
       </motion.div>
 
@@ -93,9 +91,9 @@ const Works = () => {
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
           <span className="font-bold">
-          <br></br>
-          PRODUCTS, PROGRAMS AND SOLUTIONS POWERED BY $WYLER
-            </span>
+            <br></br>
+            PRODUCTS, PROGRAMS AND SOLUTIONS POWERED BY $WYLER
+          </span>
         </motion.p>
       </div>
 
