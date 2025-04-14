@@ -31,7 +31,7 @@ export const navLinks = [
   },
   {
     id: "nodes",
-    title: "WylerNode"
+    title: "Sequencer"
   },
   {
     id: "contact",
@@ -41,11 +41,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Interoperability",
+    title: "Zero Gas Fees",
     icon: web,
   },
   {
-    title: "Scalability",
+    title: "Social Login",
     icon: mobile,
   },
   {
@@ -123,34 +123,34 @@ const experiences = [
     company_name: "Launch the WylerChain Testnet to allow developers to build and test dApps.",
     icon: launch,
     iconBg: "#383E56",
-    date: "Q3 2024",
+    date: "April 2025",
     points: [
-      "Deploy core functionality, including Hyperbridges and proof aggregation.",
+      "Launching public Testnet with core modules (Hyperbridge, Proof Aggregation)",
       "Engage the community with early access and testing opportunities.",
     ],
   },
 
   {
-    title: "Hackathons and Developer Grants",
+    title: "Community & Partnerships",
     company_name: "Drive developer engagement through hackathons and grant programs.",
     icon: hackathon,
     iconBg: "#E6DEDD",
-    date: "Q4 2024",
+    date: "Q2–Q3 2025",
     points: [
-      "Organize global and regional hackathons.",
+      "Strategic tie-ups with AI, RWA, and Gaming projects",
       "Offer developer grants to support innovative dApps and tools within the WylerChain ecosystem"
     ],
   },
 
   {
-    title: "Node Sale",
+    title: "Sequencer Slot Sale",
     company_name: "Initiate a Node Sale to distribute validation responsibilities and enhance decentralization.",
     icon: node,
     iconBg: "#383E56",
-    date: "Q1 2025",
+    date: "Q3 2025",
     points: [
-      "Conduct a public sale of nodes.",
-      "Onboard validators to secure the network ahead of the mainnet launch."
+      "Limited sale of sequencer slots with $WYLER rewards",
+      "Infrastructure and protocol upgrades for performance & security."
     ],
   },
   {
@@ -158,10 +158,10 @@ const experiences = [
     company_name: "Deploy WylerChain Mainnet for full-scale application deployment.",
     icon: launch,
     iconBg: "#383E56",
-    date: "Q2 2025",
+    date: "Q4 2025",
     points: [
-      "Activate full features for dApp developers and users.",
-      "Roll out staking and governance functionalities."
+      "Full-feature WylerChain Mainnet live for users and developers",
+      "Staking, governance, and bridging with Ethereum & Arbitrum"
     ],
   },
   {
@@ -169,10 +169,10 @@ const experiences = [
     company_name: "Expand WylerChain's ecosystem by onboarding more dApps, enterprises, and partners.",
     icon: ecosystem,
     iconBg: "#E6DEDD",
-    date: "Q3 2025",
+    date: "2026 & Beyond",
     points: [
-      "Grow partnerships with AI, gaming, and RWA projects.",
-      "Increase network capacity and scalability for enterprise-grade applications."
+      "Onboarding high-impact dApps, DAOs, and enterprises",
+      "Scaling infra, dev tools, and community-driven governance"
     ],
   },
 ];

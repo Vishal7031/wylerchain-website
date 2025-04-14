@@ -1,5 +1,5 @@
 import React from "react";
-import Tilt from 'react-parallax-tilt';
+import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -73,17 +73,15 @@ const Works = () => {
       <motion.div variants={textVariant()}>
         <h2 className={`${styles.sectionHeadText}`}>Powered by $WYLER</h2>
         <span className="font-bold">
-        $WYLER is the native gas token for Wyler Chain and the governance token for the Wylerchain DAO.
+          $WYLER is the heart of the WylerChain ecosystem — it’s used to pay gas fees, take part in governance, and access core features across the network.
         </span>
-          <br></br>
-          <br></br>
+        <br></br>
+        <br></br>
         <span>
-        It powers the entire Wylerchain ecosystem.
-        <br></br>
-        <br></br>
-
-        $WYLER token wil deploy on zkSync Eera as a ERC-20 token. It also deploy on the Ethereum L1 Blockchain         <br></br>
-        and will be bridged to the Wyler Chain when the Mainnet goes live.
+          The token will launch as an ERC-20 on Arbitrum One and Ethereum L1, giving it speed, security, and wide reach. Once WylerChain’s mainnet is live, $WYLER will be smoothly bridged for native use on the chain.
+          <br></br>
+          <br></br>
+          From staking and governance to powering apps and rewarding users, everything in the WylerChain ecosystem runs on $WYLER.
         </span>
       </motion.div>
 
@@ -93,9 +91,9 @@ const Works = () => {
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
           <span className="font-bold">
-          <br></br>
-          PRODUCTS, PROGRAMS AND SOLUTIONS POWERED BY $WYLER
-            </span>
+            <br></br>
+            PRODUCTS, PROGRAMS AND SOLUTIONS POWERED BY $WYLER
+          </span>
         </motion.p>
       </div>
 

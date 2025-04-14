@@ -52,32 +52,40 @@ const Feedbacks = () => {
       >
         <motion.div variants={textVariant()}>
           {/* <p className={styles.sectionSubText}>What others say</p> */}
-          <h2 className={styles.sectionHeadText}>Wyler Nodes</h2>
+          <h2 className={styles.sectionHeadText}>Wyler Sequencer</h2>
         </motion.div>
       </div>
       <div className={`-mt-20 pb-14 ${styles.paddingX} flex-row flex gap-7`}>
         {/* {testimonials.map((testimonial, index) => (
           <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
         ))} */}
-        
+
         <div className='w-1/2'>
           <p>
             <span className="font-bold">
-              Become a Wyler Node Operator for WylerChain and Earn Network Rewards As a Wyler Node on WylerChain.
-            </span>
+              Become a core part of WylerChain by owning a Sequencer Slot.</span>
             <br></br>
             <br></br>
-            The Wyler Nodes on wyler Chain are essential for validating transactions and securing the network. This critical consensus mechanism upholds trust and security within the WylerChain ecosystem. Wyler Node operators will be rewarded in wyler for their work in validating transactions.
+            Sequencers are key to processing and ordering transactions on WylerChain. As a slot holder, you’ll earn $WYLER rewards, help secure the network, and play a vital role in its performance.
+            Built on Arbitrum Orbit, WylerChain offers high scalability with Ethereum-grade security.
+            <br></br>
+            <br></br>
+
+            <span className="font-bold">
+            Limited slots. Long-term value.</span>
+            <br></br>
+
+            Slot sales launching soon. Early access = early rewards.
           </p>
           <div>
             <button
               type='submit'
               className='hover:bg-indigo-500 bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary mt-12'
             >
-              Mint Coming Soon
+              Reserve Your Slot
             </button>
           </div>
-          
+
         </div>
         <div className='w-1/2 h-[400px]'> <img src={node2} alt="node2" className='w-full h-75 rounded-2xl'
         /></div>

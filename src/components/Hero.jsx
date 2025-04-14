@@ -19,7 +19,7 @@ const Hero = () => {
             <span className='text-[#915EFF]'>WylerChain</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            The First L3 Blockchain Built for Everything
+            The Fastest Way to Use Web3 - No Wallet , No Gas
             <br className='sm:block hidden' />
             Building the infrastructure to bring everyone on chain.
             <br></br>
