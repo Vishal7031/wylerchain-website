@@ -58,7 +58,7 @@ const Home = () => {
         <div>
           <button
             type='button'
-            onClick={() => window.open('https://wylerchain.gitbook.io/whitepaper', '_blank', 'noopener,noreferrer')}
+            onClick={() => window.open('https://wylerchains-organization.gitbook.io/whitepaper', '_blank', 'noopener,noreferrer')}
             className='hover:bg-indigo-500 bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary mt-12'
           >
             Wylerchain Whitepaper
