@@ -72,7 +72,7 @@ const technologies = [
   {
     // name: "JavaScript",  
     icon: medium,
-    url: "https://x.com/"
+    url: "https://medium.com/@wylerchain"
   },
   {
     // name: "TypeScript",
