@@ -66,8 +66,8 @@ const technologies = [
   },
   {
     // name: "CSS 3",
-    icon: discord,
-    url: "https://discord.com/"
+    icon: instagram,
+    url: "https://www.instagram.com/wylerchain/"
   },
   {
     // name: "JavaScript",  
