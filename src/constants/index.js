@@ -8,6 +8,7 @@ import {
   twitterx,
   discord,
   ip,
+  instagram,
   synthisis,
   dao,
   node,

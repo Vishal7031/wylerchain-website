@@ -7,10 +7,11 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
-import medium from "./tech/medium.png";
+ import medium from "./tech/medium.png";
 import telegram from "./tech/telegram.png";
 import twitterx from "./tech/twitterx.png";
+import instagram from "./tech/instagram.png"
+
 import discord from "./tech/discord.png";
 
 import node from "./company/node.png";
@@ -43,7 +44,7 @@ export {
 
   telegram,
   twitterx,
-
+instagram,
   discord,
   ip,
   synthisis,
