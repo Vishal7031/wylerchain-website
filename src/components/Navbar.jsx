@@ -9,28 +9,45 @@ const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [visible, setVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
 
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
+      
+      // Change background after scrolling 100px
       if (scrollTop > 100) {
         setScrolled(true);
       } else {
         setScrolled(false);
       }
+
+      // Auto-hide navbar logic
+      if (scrollTop > lastScrollY && scrollTop > 100) {
+        // Scrolling down & past 100px - hide navbar
+        setVisible(false);
+      } else if (scrollTop < lastScrollY) {
+        // Scrolling up - show navbar
+        setVisible(true);
+      }
+
+      setLastScrollY(scrollTop);
     };
 
     window.addEventListener("scroll", handleScroll);
 
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [lastScrollY]);
 
   return (
     <nav
       className={`${
         styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20 ${
+      } w-full flex items-center py-5 fixed z-20 transition-transform duration-300 ease-in-out ${
         scrolled ? "bg-primary" : "bg-transparent"
+      } ${
+        visible ? "top-0 transform translate-y-0" : "top-0 transform -translate-y-full"
       }`}
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
