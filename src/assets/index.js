@@ -8,7 +8,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
  import medium from "./tech/medium.png";
-import telegram from "./tech/telegram.png";
+
 import twitterx from "./tech/twitterx.png";
 import instagram from "./tech/instagram.png"
 
@@ -41,10 +41,8 @@ export {
   menu,
   close,
   medium,
-
-  telegram,
   twitterx,
-instagram,
+  instagram,
   discord,
   ip,
   synthisis,

@@ -4,7 +4,6 @@ import {
   creator,
   web,
   medium,
-  telegram,
   twitterx,
   discord,
   ip,
@@ -74,11 +73,6 @@ const technologies = [
     // name: "JavaScript",  
     icon: medium,
     url: "https://medium.com/@wylerchain"
-  },
-  {
-    // name: "TypeScript",
-    icon: telegram,
-    url: "https://t.me/wylerchain"
   },
   // {
   //   name: "React JS",
