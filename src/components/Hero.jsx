@@ -25,26 +25,11 @@ const Hero = () => {
             <br></br>
             <br></br>
           </p>
-          <div className='w-1/2'>
-              <p className="text-xl">
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-
-
-              </p>
-             
-            </div>
+          <div className='w-full mt-20'>
+            <h2 className={`${styles.sectionHeadText} text-white text-center`}>
+              <span className='text-[#915EFF]'>WylerChain</span> Token Coming Soon
+            </h2>
+          </div>
         </div>
         
       </div>

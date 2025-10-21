@@ -114,60 +114,81 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Testnet Launch",
-    company_name: "Launch the WylerChain Testnet to allow developers to build and test dApps.",
+    title: "Phase 1: Foundation & Research",
+    company_name: "Establish the groundwork for WylerChain's Layer 3 infrastructure.",
     icon: launch,
     iconBg: "#383E56",
-    date: "April 2025",
+    date: "Q1–Q2 2025",
     points: [
-      "Launching public Testnet with core modules (Hyperbridge, Proof Aggregation)",
-      "Engage the community with early access and testing opportunities.",
+      "Define WylerChain's mission, vision, and long-term ecosystem goals.",
+      "Finalize integration with Arbitrum Orbit as the base L2.",
+      "Design zero gas fee transaction model using relayers and account abstraction.",
+      "Begin R&D for social login integration and gasless wallet architecture.",
+      "Start smart contract development for L3 modules.",
+      "Build partnerships with key infrastructure providers (RPC, indexers, oracles).",
+      "Form the core technical and business development teams."
     ],
   },
 
   {
-    title: "Community & Partnerships",
-    company_name: "Drive developer engagement through hackathons and grant programs.",
+    title: "Phase 2: Core Development, Testnet & Token Launch",
+    company_name: "Develop, test, and deploy the WylerChain testnet and ecosystem token.",
     icon: hackathon,
     iconBg: "#E6DEDD",
-    date: "Q2–Q3 2025",
+    date: "Q3–Q4 2025",
     points: [
-      "Strategic tie-ups with AI, RWA, and Gaming projects",
-      "Offer developer grants to support innovative dApps and tools within the WylerChain ecosystem"
+      "Begin WylerChain Testnet Development on Arbitrum Orbit.",
+      "Integrate Account Abstraction (ERC-4337) for gasless transactions.",
+      "Implement social login system (Google, Discord, Telegram).",
+      "Deploy initial dApps — WylerSwap, WylerBridge, and WylerID on testnet.",
+      "Conduct internal testing and security audits for protocol stability.",
+      "Launch $WYLER Token on the Arbitrum chain.",
+      "List $WYLER on tier-2 and tier-1 exchanges to boost liquidity and exposure.",
+      "Begin community expansion and marketing campaigns across Asia, Europe & MENA.",
+      "Partner with early ecosystem projects (GameFi, SocialFi, DeFi)."
     ],
   },
 
   {
-    title: "Sequencer Slot Sale",
-    company_name: "Initiate a Node Sale to distribute validation responsibilities and enhance decentralization.",
+    title: "Phase 3: Mainnet Launch & Ecosystem Expansion",
+    company_name: "Publicly launch WylerChain and expand its ecosystem.",
     icon: node,
     iconBg: "#383E56",
-    date: "Q3 2025",
+    date: "Q1–Q2 2026",
     points: [
-      "Limited sale of sequencer slots with $WYLER rewards",
-      "Infrastructure and protocol upgrades for performance & security."
+      "WylerChain Mainnet Launch on Arbitrum L2.",
+      "Integrate WylerBridge for seamless Arbitrum–WylerChain transfers.",
+      "Launch Wyler Developer Grant Program for early builders.",
+      "Release WylerScan (block explorer) and Wyler Dashboard for ecosystem insights.",
+      "Form strategic partnerships with Web3 startups, DeFi protocols, and GameFi platforms.",
+      "Onboard the first 20+ dApps into the WylerChain ecosystem."
     ],
   },
   {
-    title: "Mainnet Launch",
-    company_name: "Deploy WylerChain Mainnet for full-scale application deployment.",
+    title: "Phase 4: Growth, Governance & Ecosystem Scaling",
+    company_name: "Transform WylerChain into a decentralized, scalable Layer 3 hub.",
     icon: launch,
     iconBg: "#383E56",
-    date: "Q4 2025",
+    date: "Q3–Q4 2026",
     points: [
-      "Full-feature WylerChain Mainnet live for users and developers",
-      "Staking, governance, and bridging with Ethereum & Arbitrum"
+      "Launch Wyler DAO for decentralized governance and ecosystem funding.",
+      "Release WylerPay API — enabling gasless Web3 payments for dApps.",
+      "Deploy Wyler Mobile SDK for social login + wallet integration.",
+      "Expand WylerChain presence across Asia, Europe, and Latin America.",
+      "Host Wyler Hackathon Series to attract global developer participation.",
+      "Reach 1M+ on-chain transactions and 100+ deployed dApps."
     ],
   },
   {
-    title: "Ecosystem Expansion",
-    company_name: "Expand WylerChain's ecosystem by onboarding more dApps, enterprises, and partners.",
+    title: "Long-Term Vision",
+    company_name: "Establish WylerChain as the default Layer 3 for mass Web2 → Web3 onboarding.",
     icon: ecosystem,
     iconBg: "#E6DEDD",
-    date: "2026 & Beyond",
+    date: "2027 & Beyond",
     points: [
-      "Onboarding high-impact dApps, DAOs, and enterprises",
-      "Scaling infra, dev tools, and community-driven governance"
+      "Establish WylerChain as the default Layer 3 for mass Web2 → Web3 onboarding.",
+      "Support multi-chain interoperability (zkSync, Base, Optimism integrations).",
+      "Expand into a modular gasless L3 ecosystem network with multiple subnets."
     ],
   },
 ];
