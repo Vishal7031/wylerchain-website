@@ -7,7 +7,7 @@ import {
   twitterx,
   discord,
   ip,
-  instagram,
+  telegram,
   synthisis,
   dao,
   node,
@@ -66,8 +66,8 @@ const technologies = [
   },
   {
     // name: "CSS 3",
-    icon: instagram,
-    url: "https://www.instagram.com/wylerchain/"
+    icon: telegram,
+    url: "https://t.me/wylerchain"
   },
   {
     // name: "JavaScript",  
@@ -118,7 +118,7 @@ const experiences = [
     company_name: "Establish the groundwork for WylerChain's Layer 3 infrastructure.",
     icon: launch,
     iconBg: "#383E56",
-    date: "Q1–Q2 2025",
+    date: "Q3-Q4 2025",
     points: [
       "Define WylerChain's mission, vision, and long-term ecosystem goals.",
       "Finalize integration with Arbitrum Orbit as the base L2.",
@@ -135,7 +135,7 @@ const experiences = [
     company_name: "Develop, test, and deploy the WylerChain testnet and ecosystem token.",
     icon: hackathon,
     iconBg: "#E6DEDD",
-    date: "Q3–Q4 2025",
+    date: "Q1-Q2 2026",
     points: [
       "Begin WylerChain Testnet Development on Arbitrum Orbit.",
       "Integrate Account Abstraction (ERC-4337) for gasless transactions.",
@@ -154,7 +154,7 @@ const experiences = [
     company_name: "Publicly launch WylerChain and expand its ecosystem.",
     icon: node,
     iconBg: "#383E56",
-    date: "Q1–Q2 2026",
+    date: "Q3-Q4 2026",
     points: [
       "WylerChain Mainnet Launch on Arbitrum L2.",
       "Integrate WylerBridge for seamless Arbitrum–WylerChain transfers.",
@@ -169,7 +169,7 @@ const experiences = [
     company_name: "Transform WylerChain into a decentralized, scalable Layer 3 hub.",
     icon: launch,
     iconBg: "#383E56",
-    date: "Q3–Q4 2026",
+    date: "Q1-Q4 2027",
     points: [
       "Launch Wyler DAO for decentralized governance and ecosystem funding.",
       "Release WylerPay API — enabling gasless Web3 payments for dApps.",
@@ -184,7 +184,7 @@ const experiences = [
     company_name: "Establish WylerChain as the default Layer 3 for mass Web2 → Web3 onboarding.",
     icon: ecosystem,
     iconBg: "#E6DEDD",
-    date: "2027 & Beyond",
+    date: "2028 & Beyond",
     points: [
       "Establish WylerChain as the default Layer 3 for mass Web2 → Web3 onboarding.",
       "Support multi-chain interoperability (zkSync, Base, Optimism integrations).",
