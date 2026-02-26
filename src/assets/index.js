@@ -10,7 +10,7 @@ import close from "./close.svg";
  import medium from "./tech/medium.png";
 
 import twitterx from "./tech/twitterx.png";
-import instagram from "./tech/instagram.png"
+import telegram from "./tech/telegram.png"
 
 import discord from "./tech/discord.png";
 
@@ -42,7 +42,7 @@ export {
   close,
   medium,
   twitterx,
-  instagram,
+  telegram,
   discord,
   ip,
   synthisis,

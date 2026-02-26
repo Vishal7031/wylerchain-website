@@ -34,16 +34,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        "service_0bz97sb",
+        "service_0bz97sb",
         {
           from_name: form.name,
           to_name: "WylerChain",
           from_email: form.email,
-          to_email: "wylerchain@gmail.com",
+          to_email: "Wylerchain@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        "bnw3LF9YEFt5ZFYz5"
       )
       .then(
         () => {
@@ -103,7 +103,7 @@ const Contact = () => {
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
-          {/* <label className='flex flex-col'>
+          <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Message</span>
             <textarea
               rows={7}
@@ -113,7 +113,7 @@ const Contact = () => {
               placeholder='What you want to say?'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
-          </label> */}
+          </label>
 
           <button
             type='submit'
