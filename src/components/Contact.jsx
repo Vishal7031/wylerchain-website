@@ -35,7 +35,7 @@ const Contact = () => {
     emailjs
       .send(
         "service_0bz97sb",
-        "service_0bz97sb",
+        "template_34yndq9",
         {
           from_name: form.name,
           to_name: "WylerChain",
